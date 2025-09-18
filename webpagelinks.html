@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pankaj Bhagwat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            background-color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #4CAF50;
+            font-size: 1.5em;
+        }
+
+        .news, .journal-club, .photos {
+            margin-bottom: 30px;
+        }
+
+        .news ul, .journal-club ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .news li, .journal-club li {
+            padding: 10px;
+            background-color: #f9f9f9;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+
+        .photos img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        .photos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .photos .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    gap: 20px; /* Adds space between items */
+}
+
+.photos figure {
+    margin: 0; /* Remove default margin */
+    display: flex;
+    flex-direction: column; /* Stack the image and caption vertically */
+    align-items: center;
+}
+
+.photos iframe {
+    margin-bottom: 10px; /* Space between the image and the caption */
+    border: none; /* Remove the border around the iframe */
+}
+
+.photos figcaption {
+    text-align: center; /* Center the caption */
+    font-size: 14px;
+    color: #555; /* A subtle text color */
+}
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Space!</h1>
+    </header>
+
+    <nav>
+        <a href="#news">News</a>
+        <a href="#journal-club">Journal Club</a>
+        <a href="#photos">Photos</a>
+    </nav>
+
+    
+    <div class="container">
+        <section id="news" class="news">
+            <p>Back to my <a href="./index.html" target="_blank"> Homepage</a>.</p>
+            <h2>News</h2>
+            <ul>
+                <li><strong>January 2025:</strong> Our paper on Conformal Bayesian Model Averaging has been accepted for presentation at ICLR 2025! You can read more about it <a href="https://openreview.net/forum?id=BKSeNw2HIr" target="_blank">here</a>.</li>
+            <li><strong>December 2024:</strong> Completed teaching the STAT 151 course at the University of Alberta!</li>
+             <li><strong>May 2024:</strong> Started teaching my first course, STAT 161, at the University of Alberta!</li>
+            <li><strong>August 2023:</strong> Successfully defended my PhD thesis!</li>
+      </ul>
+        </section>
+
+        <section id="journal-club" class="journal-club">
+            <h2>Journal Club</h2>
+            <ul>
+                <li><strong>Feb 2025:</strong> Coming Soon!</li>
+                
+            </ul>
+        </section>
+
+   
+        
+        <section id="photos" class="photos">
+            <h2> Photos</h2>
+            <div class="photo-gallery">
+                <figure>
+                    <iframe src="https://drive.google.com/file/d/15_qXX1yp-kkQn1dHwGl4wbWL2nZh-m0-/preview" width="300" height="300"></iframe>
+                    <figcaption> A memorable moment with my PhD supervisor, Éric Marchand. Throughout this journey, Eric has been a mentor and guide, and together we’ve shared the longest academic adventure of my life. </figcaption>
+                </figure>
+                <figure>
+                    <iframe src="https://drive.google.com/file/d/1N59B5q4xp8KqTR7b7-4-er5uuI0W-VsQ/preview" width="300" height="300"></iframe>
+                    <figcaption> Receiving my PhD degree from my supervisor and the Dean of the Faculty of Science at the Université de Sherbrooke. </figcaption>
+                </figure>
+                <figure>
+                    <iframe src="https://drive.google.com/file/d/17K8XDamZKTofFMDYUORC01rvCFtSKoQe/preview" width="300" height="300"></iframe>
+                    <figcaption> This picture was taken during my visit to Rutgers University, a life-changing opportunity to work with the brilliant mind of Professor William E. Strawderman. Together, we tackled an intriguing problem and uncovered a beautiful result. </figcaption>
+                </figure>
+            </div>
+
+            <p>Back to my <a href="./index.html" target="_blank"> Homepage</a>.</p>
+        </section>
+        
+
+        <footer>
+            <p>&copy; 2025 Pankaj Bhagwat. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
